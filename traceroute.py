@@ -1,5 +1,10 @@
 import sys
-from scapy.all import *
+from scapy.all import Ether
+from scapy.all import IP
+from scapy.all import ICMP
+from scapy.all import srp1
+from scapy.all import conf
+
 
 """
 notes:
