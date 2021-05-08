@@ -1,5 +1,5 @@
 # trace-route
-This a simple trace route implementaion retten in python using scapy, you should have scapy install in you libs.
+This a simple trace route implementation  written in python using scapy, you should have scapy install in you libs.
 
 Using the trace route
 1. download the code to your PC.
