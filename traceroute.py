@@ -25,8 +25,8 @@ def csr_pkt(address, ttl):
     :rtype: scapy.packet
     """
     pkt = Ether(dst=MAC_ADDRESS)/IP(dst=address, ttl=ttl)/ICMP()
-    respond = srp1(pkt, iface=conf.iface, verbose=False, timeout=1)
-    return respond
+    response = srp1(pkt, iface=conf.iface, verbose=False, timeout=1)
+    return response
 
 
 def icmp(address, ttl):
